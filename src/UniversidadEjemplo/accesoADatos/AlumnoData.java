@@ -125,10 +125,11 @@ public class AlumnoData {
     }
     
     public  Alumno buscarAlumnoPorDni(int dni){
-            String sql="SELECT idAlumno,dni,apellido,nombre,fechaNacimiento FROM alumno WHERE dni=?,"
-                + "estado=1";
+          try {  
+        String sql="SELECT idAlumno,dni,apellido,nombre,fechaNacimiento FROM alumno WHERE dni=?";
+
               
-        try {
+        
             ps=con.prepareStatement(sql);
             ps.setInt(1, dni);
             rs=ps.executeQuery();//ResultSET por q es una consulta
@@ -139,7 +140,7 @@ public class AlumnoData {
             alumno.setApellido(rs.getString("apellido"));
             alumno.setNombre(rs.getString("nombre"));
             alumno.setFechaNacimiento(rs.getDate("fechaNacimiento").toLocalDate());// lo combierto a local date
-            alumno.setActivo(true);
+            alumno.setActivo(rs.getBoolean("activo"));
            
             }else{
             JOptionPane.showMessageDialog(null, "El id del Alumno no existe ");

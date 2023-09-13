@@ -24,7 +24,7 @@ public class Conexion {
     //singleton crea una unica conexion con la base de datos
     private static Connection conexion;  //clase Conexion,variable conexion
     
-    private Conexion(){}{}
+    private Conexion(){}
     
 
     public static Connection getConexion(){

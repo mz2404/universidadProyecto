@@ -3,10 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/Usuario/Desktop/Etapa3/universidadProyecto/src/UniversidadEjemplo/vistas/ViewFormularioDeMaterias.java</file>
             <file>file:/C:/Users/Usuario/Desktop/Etapa3/universidadProyecto/src/UniversidadEjemplo/accesoADatos/AlumnoData.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Etapa3/universidadProyecto/src/UniversidadEjemplo/accesoADatos/Conexion.java</file>
             <file>file:/C:/Users/Usuario/Desktop/Etapa3/universidadProyecto/src/UniversidadEjemplo/entidades/Alumno.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/Etapa3/universidadProyecto/src/UniversidadEjemplo/entidades/Materia.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/Etapa3/universidadProyecto/src/UniversidadEjemplo/entidades/Inscripcion.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Etapa3/universidadProyecto/src/UniversidadEjemplo/vistas/ViewMenu.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Etapa3/universidadProyecto/src/UniversidadEjemplo/vistas/ViewFormularioDeAlumno.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Etapa3/universidadProyecto/src/UniversidadEjemplo/universidadEjemplo.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Etapa3/universidadProyecto/src/UniversidadEjemplo/accesoADatos/MateriaData.java</file>
         </group>
     </open-files>
 </project-private>
